@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font awesome/fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Begin header -->
+        <header class="header">
+            <!-- Begin nav -->
+            <nav class="nav grib">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="" class="item1">Kênh người bán</a><div class="item-r"></div></li>
+                    <li class="nav__list-item"><a href="" class="item2">Trở Thành người bán Shopee</a><div class="item-r"></div></li>
+                    <li class="nav__list-item nav__qrcode"><a href="" class="item3 qr--hover">
+                        Tải ứng dụng
+                        <div class="add-hover"></div>
+                    </a>
+                    <div class="item-r"></div>
+                        <div class="nav__list-item--qrcode">
+                            <img class="qr--img" src="/assets/img/QR_code.png" alt="QR-code">
+                            <div class="qr-link">
+                                <div class="link-img1">
+                                    <a href="" class="link-img"><img  src="./assets/img/link_apple.png" alt="apple"></a>
+                                    <a href="" class="link-img"><img  src="./assets/img/link_google.png" alt="goole"></a>
+                                </div>
+                                <a href="" class=""><img  src="./assets/img/link_orther.png" alt="orther"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__list-item">
+                        <div href="" class="item4">Kết nối <a href=""><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i></a></div>
+                    </li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__list-item nav__notification">
+                        <a href="" class="item8"><i class="fa-solid fa-bell"></i>Thông báo</a>
+                        <div class="notification">
+                            <div class="notifi-content">
+                                <img class="notifi-img" src="./assets/img/notification__content.png" alt="">
+                                <p class="info">Đăng Nhập để xem Thông báo</p>
+                            </div>
+                            <footer class="notifi-footer">
+                                <a class="btn-login" href="">Đăng ký</a>
+                                <a class="btn-login" href="">Đăng nhập</a>
+                            </footer>
+                        </div>
+                    </li>
+                    <li class="nav__list-item">
+                        <a href="" class="item10"><i class="fa-solid fa-circle-question"></i>Hỗ trợ</a>
+                    </li>
+                    <li class="nav__list-item nav__language">
+                        <a href="" class="item12"><i class="ti-world"></i>Tiếng Việt<i class="ti-angle-down"></i></a>
+                        <div class="choose-language">
+                            <a href="" class="language">Tiếng Việt</a>
+                            <a href="" class="language">English</a>
+                        </div>
+                    </li>
+                    <!-- Begin login logout -->
+                    <!-- <li class="nav__list-item"><a href="" class="item14">Đăng ký</a><div class="item-r"></div></li>
+                    <li class="nav__list-item"><a href="" class="item15">Đăng nhập</a></li> -->
+                    <!-- End login logout -->
+                    <!-- Begin acount -->
+                    <li class="nav__list-item acount">
+                        <img src="./assets/img/acount.jpg" alt="acount" class="acount-img">
+                        <div class="acount-name">Nguyễn Văn Bảo</div>
+                        <ul class="acount-lists">
+                            <li class="acount-lists-list"><a href="" class="acount-info">Tài khoản của tôi</a></li>
+                            <li class="acount-lists-list"><a href="" class="acount-info">Địa chỉ của tôi</a></li>
+                            <li class="acount-lists-list"><a href="" class="acount-info">Đơn mua</a></li>
+                            <li class="acount-lists-list"><a href="" class="acount-info">Đăng xuất</a></li>
+                        </ul>
+                    </li>
+                    <!-- End acount -->
+                </ul>
+            </nav>
+            <!-- End nav -->
+            <!-- Begin Search -->
+            <div class="search grib">
+                <div class="logo">
+                    <img src="./assets/img/logo_shopee.jpg" alt="logo shopee">
+                </div>
+                <div class="search__container">
+                    <div class="search__bar">
+                        <input placeholder="Săn quà may mắn từ TinyTAN" type="text" class="search__bar-main">
+                            <a href="" class="search-history">
+                                <div class="history-text">Săn quà may mắn từ TinyTAN</div>
+                                <img src="./assets/img/img_search-history.png" alt="" class="history-img">
+                            </a>
+                        <button class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <ul class="search__lists">
+                        <li class="search__lists-list">Áo khoác</li>
+                        <li class="search__lists-list">Dép</li>
+                        <li class="search__lists-list">Túi xách nữ</li>
+                        <li class="search__lists-list">Ốp Iphone</li>
+                        <li class="search__lists-list">Váy</li>
+                        <li class="search__lists-list">Son</li>
+                        <li class="search__lists-list">Áo hoodie</li>
+                        <li class="search__lists-list">Áo thun</li>
+                    </ul>
+                </div>
+                <div class="icon-cart">
+                    <i class="fa-solid fa-cart-shopping">
+                        <!-- <div class="hover-cart">
+                            <img src="./assets/img/img_nothing.png" alt="Chưa có sản phẩm" class="nothing">
+                            <div class="text-nothing">Chưa có sản phẩm</div>
+                        </div> -->
+                        <!-- Begin hover-cart-product -->
+                        <div class="hover-product">
+                            <header class="product-header">
+                                <p class="product-text">Sản Phẩm Đã Thêm</p>
+                            </header>
+                            <ul class="product-content">
+                                <li class="product__content-list">
+                                    <img src="./assets/img/sp_product1.jpg" alt="" class="product-img">
+                                    <div class="product-info">
+                                        <h1>Áo sweater dáng rộng phong cách Unisex FB 26 Teenxx 5, Áo hoodie nam nữ</h1>
+                                        <p>Màu:Ao B</p>
+                                    </div>
+                                    <div class="product-cost">
+                                        <div class="product-cost-list">
+                                            <div class="cost-price">13.000 - ₫63.000</div>
+                                            <div class="cost-amount">x1</div>
+                                        </div>
+                                        <a href="" class="cost-del">Xóa</a>
+                                    </div>
+                                </li>
+                                <li class="product__content-list">
+                                    <img src="./assets/img/sp_product2.jpg" alt="" class="product-img">
+                                    <div class="product-info">
+                                        <h1>Đèn ngủ Mặt Trăng Moon Light 3D Nhiều Màu Size 10-12-15-18- 20cm</h1>
+                                        <p>Phân loại hàng: warm Light+ bracket</p>
+                                    </div>
+                                    <div class="product-cost">
+                                        <div class="product-cost-list">
+                                            <div class="cost-price">8.000 - ₫29.000</div>
+                                            <div class="cost-amount">x2</div>
+                                        </div>
+                                        <a href="" class="cost-del">Xóa</a>
+                                    </div>
+                                </li>
+                                <li class="product__content-list">
+                                    <img src="./assets/img/sp__product3.jpg" alt="" class="product-img">
+                                    <div class="product-info">
+                                        <h1>Giày Jordan Cổ Cao Nam Nữ, giày sneaker JD1 hyper xanh loang bản đẹp full box bill đủ size nam nữ</h1>
+                                        <p>Không có gì</p>
+                                    </div>
+                                    <div class="product-cost">
+                                        <div class="product-cost-list">
+                                            <div class="cost-price">3.650₫</div>
+                                            <div class="cost-amount">x1</div>
+                                        </div>
+                                        <a href="" class="cost-del">Xóa</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <footer class="product__footer">
+                                <button>
+                                    <a href="" class="back-cart">Xem giỏ hàng</a>
+                                </button>
+                            </footer>
+                        </div>
+                        <!-- End hovet-cart-product -->
+                    </i>
+                    <!-- Begin number of product -->
+                    <div class="product-number">
+                        3
+                    </div>
+                    <!-- End number of product -->
+                </div>
+            </div>
+            <!-- End Search -->
+        </header>
+        <!-- End header -->
+        <!-- Begin container -->
+        <div class="container">
+            <div class="grib">
+                <div class="grib__row pdt-24">
+                    <div class="grib__column-2">
+                        <div class="category ">
+                            <div class="category__header">
+                                <i class="ti-view-list-alt"></i>
+                                <h2 class="cate__header-text">Tất cả danh mục</h2>
+                            </div>
+                            <ul class="category__list">
+                                <li class="category__list-item"><div class="abc"></div>Máy tính & laptop</li>
+                                <li class="category__list-item">Máy tính bàn</li>
+                                <li class="category__list-item">Màn hình</li>
+                                <li class="category__list-item">Linh kiện máy tính</li>
+                                <li class="category__list-item">Thiết bị lưu trữ</li>
+                                <li class="category__list-item">Thiết bị mạng</li>
+                                <li class="category__list-item">
+                                    Thêm
+                                    <i class="cate__list-icon"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grib__column-10">
+                        <div class="container__filter">
+                            <div class="con__fil-list">
+                                <span class="con__fil-list-arrangement">Sắp xếp theo</span>
+                                <button class="btn bgr-primary">Phổ biến</button>
+                                <button class="btn">Mới nhất</button>
+                                <button class="btn">Bán chạy</button>
+                                <button class="btn-fil">
+                                    Giá
+                                    <i class="btn-fil-icon ti-angle-down"></i>
+                                    <ul class="btn-fil-list">
+                                        <li class="btn-fil-list-item">Giá: Thấp đến Cao</li>
+                                        <li class="btn-fil-list-item">Giá: Cao đến Thấp</li>
+                                    </ul>
+                                </button>
+                            </div>
+                            <div class="con__fil-page">
+                                <span class="page-number">1</span>
+                                /100
+                                <div class="angle">
+                                    <button class="btn-angle ti-angle-left"></button>
+                                    <button class="btn-angle ti-angle-right"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__product">
+                            <div class="grib__row-10 mgt-16">
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image:url(./assets/img/sp__product-1.png)">
+                                    </div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">[Siêu khuyến mại] Chuột máy tính,chuột có dây Fulhen L102 hàng nhập khẩu giá tốt nhất,bảo hành 12 tháng. shopphukienvtq</div>
+                                        <div class="container__product-cost">₫60.500</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 116</div>
+                                        </div>
+                                        <div class="container__product-place">Hà Nội</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-2.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">Bộ ốc vít Macbook Pro A1278, A1286, A1297</div>
+                                        <div class="container__product-cost">₫14.000 - ₫59.000</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 49</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                    
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-3.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">Máy in phiếu gửi hàng công cụ bán hàng online livestream hiệu quả, tiết tiệm thời gian, KHÔNG DÙNG MỰC!</div>
+                                        <div class="container__product-cost">₫1.419.600</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 61</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-4.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">[Siêu khuyến mại] Cáp chuyển đổi usb ra lan, từ cổng usb ra cổng mạng.Bảo hành 6 tháng.shopphukienvtq</div>
+                                        <div class="container__product-cost">₫42.900</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 84</div>
+                                        </div>
+                                        <div class="container__product-place">Hà Nội</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-5.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">BÀN PHÍM LAPTOP ACER ASPIRE 4736 3820 4736Z 4736ZG 4750G 4736G 4810T 4733 4738 4739 4740 4741 4752 E1-471 - hÀNG NHẬP KH</div>
+                                        <div class="container__product-cost">₫155.000</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 17</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image:url(./assets/img/sp__product-1.png)">
+                                    </div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">[Siêu khuyến mại] Chuột máy tính,chuột có dây Fulhen L102 hàng nhập khẩu giá tốt nhất,bảo hành 12 tháng. shopphukienvtq</div>
+                                        <div class="container__product-cost">₫60.500</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 116</div>
+                                        </div>
+                                        <div class="container__product-place">Hà Nội</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-2.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">Bộ ốc vít Macbook Pro A1278, A1286, A1297</div>
+                                        <div class="container__product-cost">₫14.000 - ₫59.000</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 49</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                    
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-3.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">Máy in phiếu gửi hàng công cụ bán hàng online livestream hiệu quả, tiết tiệm thời gian, KHÔNG DÙNG MỰC!</div>
+                                        <div class="container__product-cost">₫1.419.600</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 61</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-4.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">[Siêu khuyến mại] Cáp chuyển đổi usb ra lan, từ cổng usb ra cổng mạng.Bảo hành 6 tháng.shopphukienvtq</div>
+                                        <div class="container__product-cost">₫42.900</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 84</div>
+                                        </div>
+                                        <div class="container__product-place">Hà Nội</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-5.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">BÀN PHÍM LAPTOP ACER ASPIRE 4736 3820 4736Z 4736ZG 4750G 4736G 4810T 4733 4738 4739 4740 4741 4752 E1-471 - hÀNG NHẬP KH</div>
+                                        <div class="container__product-cost">₫155.000</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 17</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image:url(./assets/img/sp__product-1.png)">
+                                    </div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">[Siêu khuyến mại] Chuột máy tính,chuột có dây Fulhen L102 hàng nhập khẩu giá tốt nhất,bảo hành 12 tháng. shopphukienvtq</div>
+                                        <div class="container__product-cost">₫60.500</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 116</div>
+                                        </div>
+                                        <div class="container__product-place">Hà Nội</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-2.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">Bộ ốc vít Macbook Pro A1278, A1286, A1297</div>
+                                        <div class="container__product-cost">₫14.000 - ₫59.000</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 49</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                    
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-3.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">Máy in phiếu gửi hàng công cụ bán hàng online livestream hiệu quả, tiết tiệm thời gian, KHÔNG DÙNG MỰC!</div>
+                                        <div class="container__product-cost">₫1.419.600</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 61</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-4.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">[Siêu khuyến mại] Cáp chuyển đổi usb ra lan, từ cổng usb ra cổng mạng.Bảo hành 6 tháng.shopphukienvtq</div>
+                                        <div class="container__product-cost">₫42.900</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 84</div>
+                                        </div>
+                                        <div class="container__product-place">Hà Nội</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <a href="/" class="grib__column-2-10 main-product">
+                                    <div class="bgr-product" style="background-image: url(./assets/img/sp__product-5.png);"></div>
+                                    <div class="container__product-info">
+                                        <div class="container__product-info-name">BÀN PHÍM LAPTOP ACER ASPIRE 4736 3820 4736Z 4736ZG 4750G 4736G 4810T 4733 4738 4739 4740 4741 4752 E1-471 - hÀNG NHẬP KH</div>
+                                        <div class="container__product-cost">₫155.000</div>
+                                        <div class="container__product-more">
+                                            <i class="container__product-more-heart1 fa-regular fa-heart"></i>
+                                            <i class="container__product-more-heart2 fa-solid fa-heart"></i>
+                                            <div class="container__product-more-liststar">
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                                <i class="star fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="number-sold">Đã bán 17</div>
+                                        </div>
+                                        <div class="container__product-place">TP.Hồ Chí Minh</div>
+                                    </div>
+                                    <div class="favorite">
+                                        <i class="favorite-icon fa-solid fa-check"></i>
+                                        <span class="favorite-text">Yêu thích</span>
+                                    </div>
+                                    <div class="saleoff">
+                                        <span class="saleoff-percent">50%</span>
+                                        <span class="saleoff-text">Giảm</span>
+                                    </div>
+                                </a>
+                                <div class="pagination">
+                                    <button class="pagination-btn ti-angle-left"></button>
+                                    <button class="pagination-btn">1</button>
+                                    <button class="pagination-btn">2</button>
+                                    <button class="pagination-btn">3</button>
+                                    <button class="pagination-btn">4</button>
+                                    <button class="pagination-btn">5</button>
+                                    <button class="pagination-btn">...</button>
+                                    <button class="pagination-btn ti-angle-right"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End container -->
+        <footer class="footer">
+            <div class="grib__row">
+                <div class="grib__column-2-10 footer-main">
+                    <h2 class="footer-info">
+                        CHĂM SÓC KHÁCH HÀNG
+                    </h2>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Trung tâm trợ giúp</li>
+                        <li class="footer-list-item">Shopee Blog</li>
+                        <li class="footer-list-item">Shopee Mall</li>
+                    </ul>
+                </div>
+                <div class="grib__column-2-10">
+                    <h2 class="footer-info">
+                        VỀ SHOPEE
+                    </h2>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Giới thiệu về Shopee Việt Nam</li>
+                        <li class="footer-list-item">Tuyển dụng</li>
+                        <li class="footer-list-item">Điều khoản Shopee</li>
+                    </ul>
+                </div>
+                <div class="grib__column-2-10">
+                    <h2 class="footer-info">
+                        THANH TOÁN
+                    </h2>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Visa</li>
+                        <li class="footer-list-item">Trả Góp</li>
+                        <li class="footer-list-item">ShopeePay</li>
+                    </ul>
+                </div>
+                <div class="grib__column-2-10">
+                    <h2 class="footer-info">
+                        THEO DÕI CHÚNG TÔI TRÊN
+                    </h2>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Facebook</li>
+                        <li class="footer-list-item">instagram</li>
+                        <li class="footer-list-item">LinkedIn</li>
+                    </ul>
+                </div>
+                <div class="grib__column-2-10">
+                    <h2 class="footer-info">
+                        TẢI ỨNG DỤNG SHOPEE NGAY THÔI
+                    </h2>
+                    <ul class="footer-list footer-list-app">
+                        <li class="footer-list-item">
+                            <img src="./assets/img/QR_code.png" alt="" class="footer-qr">
+                        </li>
+                        <li class="footer-list-item footer-lists-link">
+                            <img src="./assets/img/link_apple.png" alt="apple" class="footer-link">
+                            <img src="./assets/img/link_google.png" alt="goole" class="footer-link">
+                            <img src="./assets/img/link_orther.png" alt="orther" class="footer-link">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+<!-- Begin modal -->
+    <div class="modal">
+        <div class="overlay">
+
+        </div>
+        <div class="modal-inner">
+            <header class="modal__header">
+                <p class="modal__login-form">Đăng ký</p>
+                <a href="" class="modal__login-form">Đăng nhập</a>
+            </header>
+            <form class="modal__container">
+                <div class="container__sdt">
+                    <input placeholder="Số điện thoại" type="text">
+                </div>
+                <div class="container__code">
+                    <input placeholder="Nhập mã ngẫu nhiên/mã hiển thị ở bên phải" type="text" class="enter-code">
+                    <button class="reload-code">KFW</button>
+                </div>
+                <div class="container__verification-code">
+                    <input placeholder="Mã xác minh" type="password" class="enter-ver">
+                    <button class="btn-ver">Gửi mã xác minh</button>
+                </div>
+                <p class="confirm">Bằng việc đăng ký,bạn đã đồng ý với Shopee về <a href="" class=" confirm-span"> điều khoản dịch vụ </a> & <a href="" class="confirm-span">Chính sách bảo mật</a></p>
+                <div class="container__btn">
+                    <button class="back">Trở lại</button>
+                    <button class="register">Đăng ký</button>
+                </div>
+            </form>
+            <footer class="modal__footer">
+                <button class="linkfb"><a href="" ><i class="fa-brands fa-facebook modal__footer--icon"></i>Kết nối với facebook</a></button>
+                <button><a href="" class="linkgoogle"><i class="fa-brands fa-google modal__footer--icon"></i>Kết nối với google</a></button>
+            </footer>
+        </div>
+    </div>
+<!-- End modal -->
+</body>
+</html>

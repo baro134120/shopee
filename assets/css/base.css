@@ -1,0 +1,259 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+   font-size: 62.5%;
+   line-height: 1.6rem;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.grib {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grib__full-width {
+    width: 100%;
+}
+
+.grib__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grib__column-2 {
+    display: flex;
+    flex-direction: column;
+    width: 16.6667%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.grib__column-10 {
+    display: flex;
+    flex-direction: column;
+    width: 83.3334%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.grib__row-10 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grib__column-2-10 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pdt-24 {
+    padding-top: 24px;
+}
+
+.mgt-16 {
+    margin-top: 16px;
+}
+
+.btn {
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+}
+
+.bgr-primary {
+    background-color: #fa694c;
+    color: var(--white-color);
+}
+
+/* Begin modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    --small: 0;
+    --big: 1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-inner {
+    border: 1px solid rgb(210, 216, 216);
+    width: 600px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    z-index: 1;
+    background-color: var(--white-color);
+    font-size: 20px;
+    border-radius: 3px;
+    animation: growth linear 0.8s;
+}
+
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 20px 20px;
+}
+
+.modal__header a {
+    border: rgb(206, 204, 204);
+    text-decoration: none;
+    color: #fa694c;
+    font-weight: 600;
+}
+
+.modal__container {
+    margin:  0 20px;
+}
+
+.modal__container [class*=container__] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container__sdt {
+    width: 100%;
+}
+
+.modal__container input {
+    width: 100%;
+    padding: 10px 6px;
+    display: flex;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+.container__code {
+    display: flex;
+}
+
+.container__verification-code {
+    display: flex;
+}
+
+.modal__container button {
+    padding: 0 50px;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+
+.confirm {
+    font-size: 12px;
+    padding: 10px 0 50px 0;
+    font-weight: 500;
+}
+
+.confirm-span {
+    color: #fa694c;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.container__btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.container__btn button {
+    font-size: 22px;
+    padding: 3px 50px;
+    color: var(--text-color);
+}
+
+.back {
+    border: none;
+    background-color: #fff;
+}
+.register {
+    background-color: #fa694c;
+    color: var(--white-color) !important;
+}
+
+.modal__footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(191, 192, 192);
+}
+
+.modal__footer button {
+    padding: 8px 50px;
+    border-radius: 2px;
+    border: none !important;
+}
+.modal__footer button  a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.linkfb {
+    background-color: rgb(56, 56, 129);
+}
+
+.linkfb a {
+    color: var(--white-color) !important;
+}
+
+.modal__footer--icon {
+    margin-right: 10px;
+}
+
+/* End modal */
+
+/* Begin keyframes growth(lớn lên) */
+@keyframes growth {
+    from {
+        transform: scale(var(--small));
+    }
+    to {
+        transform: scale(var(--big));
+    }
+}
+/* End keyframes growth from right */
+@keyframes growthRight {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+/* Begin keyframes growth from right */
